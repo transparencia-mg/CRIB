@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "CRIB - Clinical Risk Index for Babies que é um score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT) com peso ao nascer menor ou igual a 1500g ou Idade Gestacional menor que 31 semanas baseado na gravidade clínica inicial deste Recém Nato.",
+      "description": "CRIB - Clinical Risk Index for Babies 2018",
       "dialect": {
         "delimiter": ";"
       },
@@ -57,7 +57,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "CRIB 2018"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -113,7 +113,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "CRIB 2019"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -169,7 +169,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "CRIB 2020"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -223,7 +223,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "ICRIB 2021"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -279,7 +279,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "CRIB 2022"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -335,7 +335,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "CRIB 2023"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -407,8 +407,8 @@
         ]
       },
       "scheme": "file",
-      "title": "CRIB - Clinical Risk Index for Babies 2025"
+      "title": "CRIB 2025"
     }
   ],
-  "title": "CRIB"
+  "title": "CRIB - Clinical Risk Index for Babies"
 }
