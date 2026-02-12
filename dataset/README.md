@@ -1,4 +1,4 @@
-**Clinical Risk Index for Babies (CRIB)** é um score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT) com peso ao nascer menor ou igual a 1500g ou Idade Gestacional menor que 31 semanas baseado na gravidade clínica inicial deste Recém Nato.
+Clinical Risk Index for Babies (CRIB) é um score que mensura o risco da mortalidade hospitalar de Recém Nato prematuro (RNPT) com peso ao nascer menor ou igual a 1500g ou Idade Gestacional menor que 31 semanas baseado na gravidade clínica inicial deste Recém Nato.
 
 # Como participar
 
@@ -20,5 +20,6 @@ Além disso, fique a vontade para utilizar os demais canais oficiais de atendime
 - [Manifestações de Ouvidoria](https://www.ouvidoriageral.mg.gov.br/): Denúncia, Reclamação, Crítica, Elogio ou Sugestões.
 - [Pedido de Acesso à Informação](https://acessoainformacao.mg.gov.br/sistema/site/index.aspx): Acesso às informações dos órgãos e entidades estaduais que não estejam publicamente disponíveis.
 - [Pedido de abertura de bases de dados](https://acessoainformacao.mg.gov.br/sistema/site/index.aspx): Solicitação de abertura de bases de dados dos órgãos e entidades que não estejam publicamente disponíveis.
+
 
 
