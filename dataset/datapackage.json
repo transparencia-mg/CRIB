@@ -18,7 +18,9 @@
         "fields": [
           {
             "name": "unidade",
-            "type": "string"
+            "type": "string",
+            "description": "Sigla da unidade hospitalar",
+            "title": "Unidade"
           },
           {
             "name": "mes",
@@ -72,7 +74,9 @@
         "fields": [
           {
             "name": "unidade",
-            "type": "string"
+            "type": "string",
+            "description": "Sigla da unidade hospitalar",
+            "title": "Unidade"
           },
           {
             "name": "mes",
@@ -126,7 +130,9 @@
         "fields": [
           {
             "name": "unidade",
-            "type": "string"
+            "type": "string",
+            "description": "Sigla da unidade hospitalar",
+            "title": "Unidade"
           },
           {
             "name": "mes",
@@ -234,7 +240,9 @@
         "fields": [
           {
             "name": "unidade",
-            "type": "string"
+            "type": "string",
+            "description": "Sigla da unidade hospitalar",
+            "title": "Unidade"
           },
           {
             "name": "mes",
@@ -288,7 +296,9 @@
         "fields": [
           {
             "name": "unidade",
-            "type": "string"
+            "type": "string",
+            "description": "Sigla da unidade hospitalar",
+            "title": "Unidade"
           },
           {
             "name": "mes",
@@ -321,60 +331,6 @@
           {
             "name": "obitos_esperados",
             "type": "string"
-          }
-        ]
-      },
-      "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
-    },
-    {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
-      "dialect": {
-        "delimiter": ";"
-      },
-      "encoding": "utf-8-sig",
-      "format": "csv",
-      "hashing": "md5",
-      "name": "crib_2024",
-      "path": "data/crib_2024.csv",
-      "profile": "tabular-data-resource",
-      "schema": {
-        "fields": [
-          {
-            "name": "unidade",
-            "type": "string"
-          },
-          {
-            "name": "mes",
-            "type": "string"
-          },
-          {
-            "name": "ano",
-            "type": "integer"
-          },
-          {
-            "name": "grau",
-            "type": "string"
-          },
-          {
-            "name": "escore",
-            "type": "string"
-          },
-          {
-            "name": "predicao_obito",
-            "type": "geopoint"
-          },
-          {
-            "name": "saidas_rn",
-            "type": "integer"
-          },
-          {
-            "name": "obitos_ocorridos",
-            "type": "integer"
-          },
-          {
-            "name": "obitos_esperados",
-            "type": "geopoint"
           }
         ]
       },
@@ -396,44 +352,62 @@
         "fields": [
           {
             "name": "unidade",
-            "type": "string"
+            "type": "string",
+            "description": "Sigla da unidade hospitalar",
+            "title": "Unidade"
           },
           {
             "name": "mes",
-            "type": "string"
+            "type": "string",
+            "title": "Mês",
+            "description": "Mês referente ao dado"
           },
           {
             "name": "ano",
-            "type": "integer"
+            "type": "integer",
+            "title": "Ano",
+            "description": "Ano referente ao dado"
           },
           {
             "name": "grau",
-            "type": "string"
+            "type": "string",
+            "title": "Grau",
+            "description": "Grau de gravidade do paciente"
           },
           {
             "name": "escore",
-            "type": "string"
+            "type": "string",
+            "title": "Escore",
+            "description": "Pontuação de gravidade do paciente"
           },
           {
             "name": "predicao_obito",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Predição de Óbito",
+            "description": "Taxa de predição de mortalidade"
           },
           {
             "name": "saidas_rn",
-            "type": "integer"
+            "type": "integer",
+            "title": "Saídas",
+            "description": "Quantidade de saídas de recém nascido"
           },
           {
             "name": "obitos_ocorridos",
-            "type": "integer"
+            "type": "integer",
+            "title": "Óbitos Ocorridos",
+            "description": "Quantidade de óbitos ocorridos"
           },
           {
             "name": "obitos_esperados",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Óbitos esperados",
+            "description": "Quantidade de óbitos esperados"
           }
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "CRIB - Clinical Risk Index for Babies 2025"
     }
   ],
   "title": "CRIB"
