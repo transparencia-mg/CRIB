@@ -1,20 +1,813 @@
 {
   "version": "4.16.6",
-  "time": 0.07,
-  "errors": [
+  "time": 0.216,
+  "errors": [],
+  "tasks": [
     {
-      "code": "package-error",
-      "name": "Package Error",
-      "tags": [],
-      "note": "\"'CRIB' does not match '^([-a-z0-9._/])+$'\" at \"name\" in metadata and at \"properties/name/pattern\" in profile",
-      "message": "The data package has an error: \"'CRIB' does not match '^([-a-z0-9._/])+$'\" at \"name\" in metadata and at \"properties/name/pattern\" in profile",
-      "description": "A validation cannot be processed."
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "crib_2018",
+        "path": "data/crib_2018.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "integer"
+            },
+            {
+              "name": "grau",
+              "type": "string"
+            },
+            {
+              "name": "escore",
+              "type": "string"
+            },
+            {
+              "name": "predicao_obito",
+              "type": "geopoint"
+            },
+            {
+              "name": "saidas_rn",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_ocorridos",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_esperados",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "2af3b0ec4fd3a3dce2374ff7c05fd0a4",
+          "bytes": 5903,
+          "fields": 9,
+          "rows": 144
+        }
+      },
+      "time": 0.014,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "crib_2019",
+        "path": "data/crib_2019.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "integer"
+            },
+            {
+              "name": "grau",
+              "type": "string"
+            },
+            {
+              "name": "escore",
+              "type": "string"
+            },
+            {
+              "name": "predicao_obito",
+              "type": "geopoint"
+            },
+            {
+              "name": "saidas_rn",
+              "type": "geopoint"
+            },
+            {
+              "name": "obitos_ocorridos",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_esperados",
+              "type": "geopoint"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "557d54478233060f772300606c32e319",
+          "bytes": 8200,
+          "fields": 9,
+          "rows": 192
+        }
+      },
+      "time": 0.017,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "crib_2020",
+        "path": "data/crib_2020.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "integer"
+            },
+            {
+              "name": "grau",
+              "type": "string"
+            },
+            {
+              "name": "escore",
+              "type": "string"
+            },
+            {
+              "name": "predicao_obito",
+              "type": "geopoint"
+            },
+            {
+              "name": "saidas_rn",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_ocorridos",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_esperados",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "578537540622cbc03a9df514acf7576b",
+          "bytes": 7763,
+          "fields": 9,
+          "rows": 191
+        }
+      },
+      "time": 0.015,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "crib_2021",
+        "path": "data/crib_2021.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "integer"
+            },
+            {
+              "name": "grau",
+              "type": "string"
+            },
+            {
+              "name": "escore",
+              "type": "string"
+            },
+            {
+              "name": "predicao_obito",
+              "type": "geopoint"
+            },
+            {
+              "name": "saidas_rn",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_ocorridos",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_esperados",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "e3f09d4bec48652bde49130a3f422ce2",
+          "bytes": 7799,
+          "fields": 9,
+          "rows": 192
+        }
+      },
+      "time": 0.021,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "crib_2022",
+        "path": "data/crib_2022.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "integer"
+            },
+            {
+              "name": "grau",
+              "type": "string"
+            },
+            {
+              "name": "escore",
+              "type": "string"
+            },
+            {
+              "name": "predicao_obito",
+              "type": "geopoint"
+            },
+            {
+              "name": "saidas_rn",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_ocorridos",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_esperados",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "1c9efa5646d3e78d2a3123c842a8bf17",
+          "bytes": 7799,
+          "fields": 9,
+          "rows": 192
+        }
+      },
+      "time": 0.024,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "crib_2023",
+        "path": "data/crib_2023.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "integer"
+            },
+            {
+              "name": "grau",
+              "type": "string"
+            },
+            {
+              "name": "escore",
+              "type": "string"
+            },
+            {
+              "name": "predicao_obito",
+              "type": "geopoint"
+            },
+            {
+              "name": "saidas_rn",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_ocorridos",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_esperados",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "4e85763653fd42facd82692b95f65c67",
+          "bytes": 7820,
+          "fields": 9,
+          "rows": 192
+        }
+      },
+      "time": 0.026,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "crib_2024",
+        "path": "data/crib_2024.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "integer"
+            },
+            {
+              "name": "grau",
+              "type": "string"
+            },
+            {
+              "name": "escore",
+              "type": "string"
+            },
+            {
+              "name": "predicao_obito",
+              "type": "geopoint"
+            },
+            {
+              "name": "saidas_rn",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_ocorridos",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_esperados",
+              "type": "geopoint"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "8dab3b17ddce950bf01766ccf01df895",
+          "bytes": 7824,
+          "fields": 9,
+          "rows": 192
+        }
+      },
+      "time": 0.018,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [
+        {
+          "cell": "2,92",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "MOV",
+            "Setembro",
+            "2024",
+            "III",
+            "11 a 15 ",
+            "73,1",
+            "4",
+            "2",
+            "2,92"
+          ],
+          "rowNumber": 179,
+          "rowPosition": 180,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"2,92\" in row \"180\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2,92",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "MOV",
+            "Outubro",
+            "2024",
+            "III",
+            "11 a 15 ",
+            "73,1",
+            "4",
+            "3",
+            "2,92"
+          ],
+          "rowNumber": 183,
+          "rowPosition": 184,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"2,92\" in row \"184\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        }
+      ],
+      "stats": {
+        "errors": 2
+      },
+      "valid": false
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "crib_2025",
+        "path": "data/crib_2025.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "integer"
+            },
+            {
+              "name": "grau",
+              "type": "string"
+            },
+            {
+              "name": "escore",
+              "type": "string"
+            },
+            {
+              "name": "predicao_obito",
+              "type": "geopoint"
+            },
+            {
+              "name": "saidas_rn",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_ocorridos",
+              "type": "integer"
+            },
+            {
+              "name": "obitos_esperados",
+              "type": "geopoint"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "d3362ba309dd6ca1b54a3ccb90820f32",
+          "bytes": 7822,
+          "fields": 9,
+          "rows": 192
+        }
+      },
+      "time": 0.016,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [
+        {
+          "cell": "2,92",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "MOV",
+            "Maio",
+            "2025",
+            "III",
+            "11 a 15 ",
+            "73,1",
+            "4",
+            "2",
+            "2,92"
+          ],
+          "rowNumber": 163,
+          "rowPosition": 164,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"2,92\" in row \"164\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        }
+      ],
+      "stats": {
+        "errors": 1
+      },
+      "valid": false
     }
   ],
-  "tasks": [],
   "stats": {
-    "errors": 1,
-    "tasks": 0
+    "errors": 3,
+    "tasks": 8
   },
   "valid": false
 }
